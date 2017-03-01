@@ -30,7 +30,7 @@
             <div class="best-posts">
             {{ $nbPosts := len (where .Data.Pages "Params.best" true) }}
             {{ if gt $nbPosts 0 }}
-                <div class="page-heading">Best posts</div>
+                <div class="page-heading">Featured posts</div>
                 <ul>
                 {{ range .Data.Pages.ByPublishDate }}
                     {{ if eq .Params.best true }}
