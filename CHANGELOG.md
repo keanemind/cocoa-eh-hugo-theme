@@ -1,5 +1,28 @@
 # Changelog
 
+> v1.2.0
+
+- Add PR #39 : Add a URL for licence
+- Add PR #40 : Add a github repo for the blog
+- Add PR #38 : Add a HackerNews and lobste.rs link in metadatas
+- Add PR #41 : Add FB account in social links
+- Add PR #42 : Add the support for the comment framework Isso
+
+> v1.1.0
+
+- Add more speed and asynchronous loading, of fonts especially
+- Add more languages to `highlightjs` that are nowadays really used, like Rust, Go, Docker, Clojure, etc. ...
+- Some fixes with some Pull Requests (thx to @davidskeck, @mtn and @maiki)
+
+> v1.0.0
+
+- Change the set of fonts to **Nexa Bold, Raleway and Merriweather**.
+- Add an optional navigation at the bottom of posts.
+- Add the tags in the metadatas and add a template for tags pages.
+- Add Google Analytics (thx @mtn)
+- Add author informations on posts (thx @seemethere)
+- Replace ionicons with svgs
+
 > v0.9.0
 
 - **Change the folder of high res images, now it's the root of the image folder.**
